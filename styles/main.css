@@ -13,7 +13,7 @@ a{
 header{
     list-style: none;
     width: 80%;
-    height: 90px;
+    height: 120px;
     padding: 0px 15% ;
     margin: 5px auto;
     text-align: center;
@@ -25,11 +25,13 @@ header{
     width: 50%;
     float: left;
     padding: 10px 0px 10px 0px;
+   
 
 }
 
 .logo a{
     font-size: 37px;
+    height: auto;
     font-family: 'Cinzel';
     text-shadow: rgba(155, 122, 40, 0.643) 0px 0px 2px 1px;
 }
@@ -39,6 +41,7 @@ header{
     width: 50%;
     float: right;
     padding: 15px 0px;
+    height: auto;
 }
 
 .menu li{
@@ -50,23 +53,26 @@ header{
     margin-right: 15px;
     font-size: 20px;
     padding: 20px 10px;
+    height: auto;
 }
 
 .menu li a:hover{
     color: #212121;
+    height: auto;
 }
 
 
 .slideshow{
-    height: 1620px;
+    height: auto;
     width: 95%;
     margin: auto;
     background-color: white;
     border-radius: 18px;
+    align-items: center;
 }
 
 .slideshow img{
-    height: 500px;
+    height: auto;
     width: 98%;
     border-radius: 18px;
     color:rgb(53, 52, 47);
@@ -83,7 +89,7 @@ div .historia{
 
 div .contenido{
     width:40%;
-    height: 50%;
+    height: auto;
     margin: 3%;
     text-align: center;
    font-size: 17px;
@@ -94,13 +100,13 @@ div .contenido{
 
 div .contenido img{
     width: 55%;
-    height: 220px;
+    height: auto;
     
 }
 
 div .derechos{
     width: 100%;
-    height: 20px;
+    height: autox;
     text-align: center;
 }
 
